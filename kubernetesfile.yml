@@ -14,7 +14,7 @@ spec:
         app: medicure
     spec:
       containers:
-        - name: insurance
+        - name: medicure
           image: rony1993/staragileprojecthealthcare:v1
           ports:
             - containerPort: 8082
