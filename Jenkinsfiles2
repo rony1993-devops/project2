@@ -1,11 +1,11 @@
 pipeline {
     agent any
 
-     environment [
+     environment {
          DOCKER_IMAGE = 'rony1993/staragileprojecthealthcare:v1'
          EKS_CLUSTER_NAME = 'RONNIE-eks'
          AWS_REGION = 'us-east-1'
-     ]
+     }
 
     stages {
         stage('Clone Repository') {
